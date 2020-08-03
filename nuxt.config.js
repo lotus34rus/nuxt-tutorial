@@ -1,5 +1,7 @@
 
 export default {
+
+  loading: {color: "blue"},
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -29,6 +31,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/node_modules/bootstrap/dist/css/bootstrap.min.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -50,6 +53,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
   /*
   ** Build configuration
